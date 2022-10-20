@@ -49,4 +49,43 @@ else
 */
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+/*
+bool Weekend(int number)
+{
+    if(number > 5) 
+        return true;
+    else
+        return false;
+}
 
+Console.Write("Введите порядковый номер дня недели: ");
+int temp = Convert.ToInt32(Console.ReadLine());
+
+if(Weekend(temp) == true)
+    Console.WriteLine("Этот день выходной! ");
+else
+    Console.WriteLine("Этот день не выходной :-( ");
+*/
+// Второе решение задачи 15
+
+/*
+Console.Write("Введите порядковый номер дня недели: ");
+int temp = Convert.ToInt32(Console.ReadLine());
+
+if(temp > 0 && temp < 8)
+{
+    bool Weekend(int number)
+    {
+        if(number > 5) 
+            return true;
+        else
+            return false;
+    }
+    if(Weekend(temp) == true)
+        Console.WriteLine("Этот день выходной! ");
+    else
+        Console.WriteLine("Этот день не выходной :-( ");
+}
+else
+    Console.WriteLine("Введите порядковый номер дня недели от 1 до 7");
+*/
