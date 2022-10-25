@@ -41,3 +41,19 @@ Console.WriteLine($"Расстояние между точками равно {D
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+void Cube(int n)
+{
+    int index = 1;
+    while (index <= n)
+    {
+        double result = Math.Pow(index, 3);
+        Console.Write(result + " ");
+        index++;
+    }
+}
+
+Console.WriteLine("Введите число больше или равно 1: ");
+int temp = Convert.ToInt32(Console.ReadLine());
+
+Cube(temp);
