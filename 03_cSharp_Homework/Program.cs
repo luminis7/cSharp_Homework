@@ -3,7 +3,28 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
+/*
+bool CheckPalindrome(int number) 
+{
+    int original = number;
+    int reversed = 0;
+    int current;
+    while(number > 0)
+    {
+        current = number % 10;
+        reversed = reversed*10 + current;
+        number = number /10;
+    }
+    return (reversed == original);
+}
 
+Console.Write("Enter a natural number: ");
+int naturalNumber = Convert.ToInt32(Console.ReadLine());
+
+if(CheckPalindrome(naturalNumber) == true)
+Console.WriteLine($"number {naturalNumber} is a palindrome");
+else Console.WriteLine($"number {naturalNumber} is not a palindrome");
+*/
 
 // 21. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
@@ -41,7 +62,7 @@ Console.WriteLine($"Расстояние между точками равно {D
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
-
+/*
 void Cube(int n)
 {
     int index = 1;
@@ -57,3 +78,4 @@ Console.WriteLine("Введите число больше или равно 1: "
 int temp = Convert.ToInt32(Console.ReadLine());
 
 Cube(temp);
+*/
