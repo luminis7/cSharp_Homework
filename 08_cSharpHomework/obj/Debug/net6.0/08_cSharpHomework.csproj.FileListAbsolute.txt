@@ -1,0 +1,15 @@
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.csproj.AssemblyReference.cache
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.AssemblyInfoInputs.cache
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.AssemblyInfo.cs
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.csproj.CoreCompileInputs.cache
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/bin/Debug/net6.0/08_cSharpHomework
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/bin/Debug/net6.0/08_cSharpHomework.deps.json
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/bin/Debug/net6.0/08_cSharpHomework.runtimeconfig.json
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/bin/Debug/net6.0/08_cSharpHomework.dll
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/bin/Debug/net6.0/08_cSharpHomework.pdb
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.dll
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/refint/08_cSharpHomework.dll
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.pdb
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/08_cSharpHomework.genruntimeconfig.cache
+/Users/svet/Desktop/c#HomeWork/08_cSharpHomework/obj/Debug/net6.0/ref/08_cSharpHomework.dll
