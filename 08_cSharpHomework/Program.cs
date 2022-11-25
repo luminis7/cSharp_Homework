@@ -1,4 +1,5 @@
-﻿int[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
+﻿/*
+int[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
 {
     int[,] array = new int[rows, columns];
 
@@ -8,7 +9,7 @@
 
     return array;
 }
-
+*/
 void Show2dArray(int[,] array)
 {
     for(int i = 0; i < array.GetLength(0); i++)
@@ -20,7 +21,7 @@ void Show2dArray(int[,] array)
     }
     Console.WriteLine();
 }
-
+/*
 Console.Write("Input a number of rows: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a number of columns: ");
@@ -32,6 +33,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[,] myArray = CreateRandom2dArray(m, n, min, max);
 Show2dArray(myArray);
+*/
 
 // Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы 
 // каждой строки двумерного массива.
@@ -75,7 +77,7 @@ Show2dArray(myArray);
 // 5 2 6 7
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов:
 // 1 строка
-
+/*
 int MinSumNumInRows(int[,] array)
 {
     int minSumInRow = 0;
@@ -101,6 +103,8 @@ int MinSumNumInRows(int[,] array)
     return indexMinSum;
 }
 Console.WriteLine($"минимальная сумма в строке номер {MinSumNumInRows(myArray)}");
+*/
+
 // Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 // Например, даны 2 матрицы:
 // 2 4 | 3 4
@@ -109,7 +113,40 @@ Console.WriteLine($"минимальная сумма в строке номер
 // 18 20
 // 15 18
 
-// Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
+int[,] nums1 = { { 8,5,6 } , { 7,6,4 } };
+int[,] nums2 = { { 1,7,7 } , { 8,3,3 } , { 4,1,7 }};
+
+int[,] ProductMatrix(int[,] array1, int[,] array2)
+{
+    int[,] array = new int[array1.GetLength(0), array2.GetLength(1)];
+    if(array1.GetLength(1) == array2.GetLength(0))
+    {
+            
+        for(int i = 0; i < array.GetLength(0); i++)
+        {
+            for(int j = 0; j < array.GetLength(1); j++)
+            {
+                array[i,j] = 0;
+                for (int x = 0; x < array.GetLength(0); x ++)
+                {
+                    array[i,j] += array1[i,x] * array2[x,j];
+                }   
+            }
+        }
+        return array;
+    }
+    else 
+        return array;
+}
+
+int[,] myArray = ProductMatrix(nums1, nums2);
+
+Show2dArray(nums1);
+Show2dArray(nums2);
+Show2dArray(myArray);
+
+// Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу,
+// которая будет построчно выводить массив, добавляя индексы каждого элемента.
 // Массив размером 2 x 2 x 2
 // 66(0,0,0) 25(0,1,0)
 // 34(1,0,0) 41(1,1,0)
