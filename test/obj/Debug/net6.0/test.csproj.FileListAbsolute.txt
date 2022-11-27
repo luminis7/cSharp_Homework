@@ -1,0 +1,15 @@
+/Users/svet/Desktop/c#HomeWork/test/bin/Debug/net6.0/test
+/Users/svet/Desktop/c#HomeWork/test/bin/Debug/net6.0/test.deps.json
+/Users/svet/Desktop/c#HomeWork/test/bin/Debug/net6.0/test.runtimeconfig.json
+/Users/svet/Desktop/c#HomeWork/test/bin/Debug/net6.0/test.dll
+/Users/svet/Desktop/c#HomeWork/test/bin/Debug/net6.0/test.pdb
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.csproj.AssemblyReference.cache
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.AssemblyInfoInputs.cache
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.AssemblyInfo.cs
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.csproj.CoreCompileInputs.cache
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.dll
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/refint/test.dll
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.pdb
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/test.genruntimeconfig.cache
+/Users/svet/Desktop/c#HomeWork/test/obj/Debug/net6.0/ref/test.dll
